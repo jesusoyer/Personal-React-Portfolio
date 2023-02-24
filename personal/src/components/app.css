@@ -1,0 +1,68 @@
+/*navigation bar css*/
+.navBar{
+display: flex;
+ font-size: 30px;
+ background-color: #f8f8ff;
+ border-bottom: 1px solid gainsboro;     
+}
+.logoName{
+    font-family: 'Libre Caslon Display', serif;
+    margin-right:auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 12px;
+
+}
+.nav{
+    font-family: 'Libre Caslon Display', serif;
+
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    
+}
+
+/*footer css*/
+.footer{
+    font-family: 'Libre Caslon Display', serif;
+    display: flex;
+    background-color: #f8f8ff;
+    justify-content: space-around;
+    font-size: 30px;
+    box-shadow: 10px 10px 10px #aaaaaa;
+    height: 120px;
+    margin-top: 12px;
+}
+
+/*main content container*/
+.mainContainer{
+    width: 700px;
+    margin: 0 auto;
+}
+
+/*hompage css*/
+.homepageGridContainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10%;
+}
+.profileImage{
+    width:60%;
+margin-left: 20%;
+margin-top:20%;
+border-radius: 3%;
+border-width: 12px;
+box-sizing: border-box;
+}
+.brandStatement{
+    font-family: 'Libre Caslon Display', serif;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-top: 30%;
+    font-size: 25px;
+    margin-right: 20%;
+    
+}
