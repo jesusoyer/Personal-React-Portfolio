@@ -13,6 +13,10 @@ display: flex;
     margin-left: 12px;
 
 }
+.linkColor{
+    
+    border-radius: 10%;
+}
 .nav{
     font-family: 'Libre Caslon Display', serif;
 
@@ -65,4 +69,99 @@ box-sizing: border-box;
     font-size: 25px;
     margin-right: 20%;
     
+}
+/*project page css*/
+
+.projectsGrid{
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr ;
+ 
+    gap: 1em;
+    margin-top: 10%;
+}
+.featuredProject{
+    grid-column: 1/ span 3;
+    text-align: center;
+}
+.moreProjects{
+    grid-column: 1/ span 3;
+    text-align: center;
+    margin-bottom: 10%;
+    color:gray;
+}
+.projectHeader{
+    grid-column: 1/ span 3; 
+    font-family: 'Libre Caslon Display', serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.featuredProject{
+    background-color: #f8f8ff;
+    border-radius: 3%;
+   
+}
+
+.featuredProject:hover{
+    background-color:lightgray;
+}
+
+.projectColumns{
+    font-family: 'Libre Caslon Display', serif; 
+     background-color: #f8f8ff;
+     border-radius: 3%;
+     text-align: center;
+ }
+ .projectColumns:hover{
+    background-color:lightgray;     
+ }
+/*project images*/
+ .featuredImage{
+    width:100%;
+    border-radius: 3% 3% 0 0;
+    }
+.projectImages{
+    width:100%;
+    border-radius: 3% 3% 0 0;
+    }
+
+/*more info page css*/
+.contactContainer{
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 5%;
+    gap: 1em;
+    margin-bottom: 10%;
+    
+}
+.moreInfoImage{
+    width:100%;
+    border-radius: 3% 3% 0 0;
+}
+.moreInfoCard{
+    font-family: 'Libre Caslon Display', serif;
+    background-color: #f8f8ff;
+    border-radius: 3%;
+}
+
+/* qrl page grid and css*/
+.qrlgridContainer{
+    display:grid;
+    grid-template-columns: 2fr ;
+ 
+    gap: 1em;
+    margin-top: 10%;
+}
+.qrlContainer{
+    place-items: center;
+}
+.qrlHeader{
+    text-align: center;
+    font-size: 30px;
+}
+
+.qrlImage{
+    width:80%;
+    margin-left: 10%;
+    margin-right: auto;
 }
