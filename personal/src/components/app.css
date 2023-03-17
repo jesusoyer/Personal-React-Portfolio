@@ -1,9 +1,19 @@
 /*navigation bar css*/
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 .navBar{
 display: flex;
  font-size: 30px;
- background-color: #f8f8ff;
- border-bottom: 1px solid gainsboro;     
+ background-color:black;
+ border-bottom: 1px solid gainsboro;    
+ color: whitesmoke; 
 }
 .logoName{
     font-family: 'Libre Caslon Display', serif;
@@ -14,12 +24,12 @@ display: flex;
 
 }
 .linkColor{
-    
+    color: whitesmoke;
     border-radius: 10%;
 }
 .nav{
     font-family: 'Libre Caslon Display', serif;
-
+    
     margin-right: 12px;
     margin-left: 12px;
     margin-top: 5px;
@@ -32,7 +42,8 @@ display: flex;
 .footer{
     font-family: 'Libre Caslon Display', serif;
     display: flex;
-    background-color: #f8f8ff;
+    background-color: black;
+    color: whitesmoke;
     justify-content: space-around;
     font-size: 30px;
     box-shadow: 10px 10px 10px #aaaaaa;
@@ -78,23 +89,37 @@ box-sizing: border-box;
  
     gap: 1em;
     margin-top: 10%;
+    
+}
+.projectTitles{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Libre Caslon Display', serif;
+    margin-left: 1%;
+    
 }
 .featuredProject{
     grid-column: 1/ span 3;
     text-align: center;
+    border-style: solid;
+    border-color: black;
 }
 .moreProjects{
     grid-column: 1/ span 3;
     text-align: center;
     margin-bottom: 10%;
     color:gray;
+
+   
 }
 .projectHeader{
     grid-column: 1/ span 3; 
     font-family: 'Libre Caslon Display', serif;
     text-align: center;
     font-size: 40px;
+    text-decoration: underline;
 }
+
 
 .featuredProject{
     background-color: #f8f8ff;
@@ -111,6 +136,8 @@ box-sizing: border-box;
      background-color: #f8f8ff;
      border-radius: 3%;
      text-align: center;
+     border-style: solid;
+     border-color: black;
  }
  .projectColumns:hover{
     background-color:lightgray;     
@@ -118,31 +145,73 @@ box-sizing: border-box;
 /*project images*/
  .featuredImage{
     width:100%;
-    border-radius: 3% 3% 0 0;
+    /* border-radius: 3% 3% 0 0; */
     }
 .projectImages{
     width:100%;
-    border-radius: 3% 3% 0 0;
+    /* border-radius: 3% 3% 0 0; */
     }
+
+.linkToGithub{
+    text-decoration: underline;
+    color:black; 
+}
 
 /*more info page css*/
 .contactContainer{
     display:grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 2fr 2fr ;
     margin-top: 5%;
     gap: 1em;
     margin-bottom: 10%;
     
+    
+}
+.resumeImage{
+    width:100%;
+    border-radius: 3%;
+    margin-top: 2%;
+}
+.resumeCard{
+    border-style: solid;
+    border-radius: 5%;
 }
 .moreInfoImage{
     width:100%;
     border-radius: 3% 3% 0 0;
+    
 }
 .moreInfoCard{
     font-family: 'Libre Caslon Display', serif;
     background-color: #f8f8ff;
     border-radius: 3%;
+    border-style: solid;
 }
+.mediaLinks{
+    color:black;
+}
+.socialMediaGrid{
+    margin-left: 10%;
+    
+    text-align: left;
+}
+.resumeButton{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin-left:13%;
+    cursor: pointer;
+    font-family: 'Libre Caslon Display', serif;
+}
+.resumeButton:hover{
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    
+}
+
 
 /* qrl page grid and css*/
 .qrlgridContainer{
