@@ -1,19 +1,20 @@
 import React from 'react';
 import './app.css';
 import headShot from './assets/images/FullSizeRender (3).jpeg'
-import resumeImage from './assets/images/resumeScreenShot.png'
+import qrl from './assets/images/myQrl.png'
+
 class MoreInfo extends React.Component{
   
    
 
     render(){
       const onButtonClick= () =>{
-        fetch('resume draft 5.0.pdf').then(response => {
+        fetch('Jesus Oyervides Resume.pdf').then(response => {
          response.blob().then(blob=> {
           const fileURL = window.URL.createObjectURL(blob);
           let alink = document.createElement('a');
           alink.href = fileURL
-          alink.download = 'resume draft 50.pdf';
+          alink.download = 'Jesus Oyervides Resume.pdf';
           alink.click();
          })
       })
@@ -21,12 +22,13 @@ class MoreInfo extends React.Component{
       return(
         
         <div className='contactContainer'> 
-
-         <div className='resumeCard'>
-         <img className='resumeImage' src={resumeImage} alt='resume'></img>
-         <button className="resumeButton" onClick={onButtonClick}>Download Resume...</button>
+      
          
-  </div>
+         <div className="resumeCard">
+         <div className='qrlTitle'>Scan to Share Portfolio...</div>
+          <img className='qrlImage' src={qrl} alt='qrl'></img>
+          <div><button className="resumeButton" onClick={onButtonClick}>Click to Download Resume...</button></div>
+          </div>
 
   <div className="moreInfoCard">
   <img className='moreInfoImage' src={headShot} alt='Jesus'></img>

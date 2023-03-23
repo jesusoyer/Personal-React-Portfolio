@@ -11,7 +11,7 @@ class NavBar extends React.Component{
           <div className='nav'><Link to='/'>Home</Link></div>
           <div className='nav'><Link to='/projects'>Projects</Link></div>
           <div className='nav'><Link to="/moreInfo">More Info</Link></div>
-          <div className='nav'><Link to="/qrl">QRL</Link></div>
+          
         </div>
       )
     }
