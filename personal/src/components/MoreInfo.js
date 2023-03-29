@@ -2,6 +2,7 @@ import React from 'react';
 import './app.css';
 import headShot from './assets/images/FullSizeRender (3).jpeg'
 import qrl from './assets/images/myQrl.png'
+import { ArrowDownTrayIcon } from '@heroicons/react/24/outline'
 
 class MoreInfo extends React.Component{
   
@@ -27,7 +28,7 @@ class MoreInfo extends React.Component{
          <div className="resumeCard">
          <div className='qrlTitle'>Scan to Share Portfolio...</div>
           <img className='qrlImage' src={qrl} alt='qrl'></img>
-          <div><button className="resumeButton" onClick={onButtonClick}>Click to Download Resume...</button></div>
+          <div><button className="resumeButton" onClick={onButtonClick}> Resume <ArrowDownTrayIcon className="resumeLink" title='Download Resume' /></button></div>
           </div>
 
   <div className="moreInfoCard">
