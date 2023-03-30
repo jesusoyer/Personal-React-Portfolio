@@ -35,13 +35,15 @@ class MoreInfo extends React.Component{
   <img className='moreInfoImage' src={headShot} alt='Jesus'></img>
   
       <div className="socialMediaGrid">
-       <div> Location: Austin, TX</div>
-     <div><a className='mediaLinks' href = "mailto: oyervidesjesus017@gmail.com" rel='noopener noreferrer' target='_blank'>Email: oyervidesjesus017@gmail.com</a>
+        <div className='fullName'>Jesus Oyervides</div>
+        <div className='occupation'>Web Developer</div>
+       <div className='linkTitles'> Location: Austin, TX</div>
+     <div className='linkTitles'>Email: <a className='mediaLinks' href = "mailto: oyervidesjesus017@gmail.com" rel='noopener noreferrer' target='_blank'>oyervidesjesus017@gmail.com</a>
      </div> 
 
-      <div><a className='mediaLinks' href = "https://www.linkedin.com/in/jesus-oyervides-jr/" rel='noopener noreferrer' target='_blank'>LinkedIn: https://www.linkedin.com/in/jesus-oyervides-jr/</a></div>
+      <div className='linkTitles'>LinkedIn: <a className='mediaLinks' href = "https://www.linkedin.com/in/jesus-oyervides-jr/" rel='noopener noreferrer' target='_blank'> https://www.linkedin.com/in/jesus-oyervides-jr/</a></div>
 
-      <div><a  className='mediaLinks' href = "https://github.com/jesusoyer" rel='noopener noreferrer' target='_blank'>GitHub: https://github.com/jesusoyer</a> </div>
+      <div className='linkTitles'>GitHub: <a  className='mediaLinks' href = "https://github.com/jesusoyer" rel='noopener noreferrer' target='_blank'>https://github.com/jesusoyer</a> </div>
       </div>
       
       </div>

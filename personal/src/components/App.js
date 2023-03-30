@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
-import Footer from "./Footer";
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import HomePage from "./HomePage"
@@ -26,7 +26,7 @@ class App extends React.Component{
       
       </Routes>
       </div>
-      <Footer />
+      {/* <Footer /> */}
       </Router>
     )
   }
