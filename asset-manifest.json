@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3718a5fc.css",
+    "main.js": "/static/js/main.d835158d.js",
+    "static/media/IMG_5481.jpeg": "/static/media/IMG_5481.531ce20ea8809f4fca01.jpeg",
+    "static/media/eagleeye.png": "/static/media/eagleeye.5e6d2bf7a440f8261b8e.png",
+    "static/media/FullSizeRender (3).jpeg": "/static/media/FullSizeRender (3).9a98ffa4616ea6154186.jpeg",
+    "static/media/Video_app_image.png": "/static/media/Video_app_image.c2df0338cca5741fb239.png",
+    "static/media/biblioTecha.png": "/static/media/biblioTecha.091e61e096409ce3930e.png",
+    "static/media/searchImageApp.png": "/static/media/searchImageApp.c52417cffa0d74b46238.png",
+    "static/media/gymRatsImage.png": "/static/media/gymRatsImage.3e9f84b0bf87cb552683.png",
+    "static/media/weatherDashboard.png": "/static/media/weatherDashboard.2fc0e4b1fce67db59ba7.png",
+    "static/media/DayPlanner.png": "/static/media/DayPlanner.5cb6fa6a674f91a42876.png",
+    "static/media/mountain_sunset.jpg": "/static/media/mountain_sunset.25306a0e6d83d59a1885.jpg",
+    "index.html": "/index.html",
+    "main.3718a5fc.css.map": "/static/css/main.3718a5fc.css.map",
+    "main.d835158d.js.map": "/static/js/main.d835158d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3718a5fc.css",
+    "static/js/main.d835158d.js"
+  ]
+}
