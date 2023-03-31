@@ -20,7 +20,7 @@ class App extends React.Component{
         <NavBar />
       <div className="mainContainer"> 
       <Routes>
-      <Route path="/" element={<HomePage />}/>
+      <Route path="" element={<HomePage />}/>
       <Route path="/projects" element={<Projects />}/>
       <Route path="/moreInfo" element={<MoreInfo />}/>
       
