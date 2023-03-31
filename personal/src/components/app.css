@@ -4,7 +4,11 @@
     box-sizing: border-box;
     
 }
-
+body{
+    background-image: url('mountain_sunset.jpg');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
 
 
 /*navigation bar css*/
@@ -80,9 +84,7 @@ width:30px;
     
 }
 #root{
-    background-image: url('mountain_sunset.jpg');
-    background-size:100% 100%;
-    background-repeat: no-repeat;
+    
 }
 
 /*hompage css*/

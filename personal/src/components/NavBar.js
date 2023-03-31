@@ -16,7 +16,7 @@ class NavBar extends React.Component{
         
         <div className="navBar">
           <div className='logoName'>JO.Portfolio</div>
-          <div className='nav' ><Link to='/'>
+          <div className='nav' ><Link to='/Personal-React-Portfolio'>
           <HomeIcon className="navLink" title='To Homepage'/></Link></div>
 
           <div className='nav'><Link to='/projects'><RectangleGroupIcon className="navLink" title='Projects' /></Link></div>
