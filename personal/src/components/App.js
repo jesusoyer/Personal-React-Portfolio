@@ -17,8 +17,11 @@ class App extends React.Component{
     return(
       <Router>
         
+        <div className="outerContainer">
         <NavBar />
+        
       <div className="mainContainer"> 
+      
       <Routes>
       <Route path="/Personal-React-Portfolio" element={<HomePage />}/>
       <Route path="/projects" element={<Projects />}/>
@@ -26,7 +29,8 @@ class App extends React.Component{
       
       </Routes>
       </div>
-      {/* <Footer /> */}
+      </div>
+      
       </Router>
     )
   }

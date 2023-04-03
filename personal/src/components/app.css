@@ -4,11 +4,26 @@
     box-sizing: border-box;
     
 }
-body{
+html{
+    font-size: 62.5%;
+}
+/*main content container*/
+.mainContainer{
+    width: 50em;
+    margin: 0 auto;
+   
+    
+}
+
+
+
+.outerContainer{
     background-image: url('mountain_sunset.jpg');
     background-size:100% 100%;
     background-repeat: no-repeat;
+    
 }
+
 
 
 /*navigation bar css*/
@@ -23,69 +38,50 @@ a:hover{
 
 .navBar{
 display: flex;
- font-size: 30px;
- background-color:#d9480f;
- border-bottom: 1px solid gainsboro;    
+ font-size: 1.875em;
+ justify-content: space-evenly;    
  color: #ffe8cc; 
- border-radius: 8px;
+ 
 }
 .logoName{
     font-family: 'Libre Caslon Display', serif;
     margin-right:auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 12px;
+    margin-top: 1.2em;
+    margin-bottom: 3.2em;
+    margin-left: 1.3em;
 
 }
 .linkColor{
     color: whitesmoke;
-    border-radius: 10%;
+    border-radius: .1em;
 }
 .nav{
     font-family: 'Libre Caslon Display', serif;
-    margin-right: 12px;
-    margin-left: 12px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-right: 1.3em;
+    margin-left: 1.3em;
+    margin-top: 1.2em;
+    margin-bottom: 3.2em;
 }
 .navLink{
-width:30px;
+width:1.875rem;
 
 }
 .navLink:hover {
     content: attr(dataHover);
     width: 31px;
     box-shadow: 0 20px 30px 0px rgb(0, 0, 0 , 0.2);
-    border-radius: 10%;
+    border-radius: .1em;
   }
   .navLink:active{
-    width: 30px;
+    width: 1.875em;
     box-shadow: none;
   }
   
 
-/*footer css*/
-.footer{
-    font-family: 'Libre Caslon Display', serif;
-    display: flex;
-    background-color: #d9480f;
-    color: #fff4e6;
-    justify-content: space-around;
-    font-size: 30px;
-    height: 120px;
-    margin-top: 12px;
-    border-radius: 8px;
-}
 
-/*main content container*/
-.mainContainer{
-    width: 700px;
-    margin: 0 auto;
-    
-}
-#root{
-    
-}
+
+
+
 
 /*hompage css*/
 .homepageGridContainer{
@@ -94,31 +90,32 @@ width:30px;
     
 
 }
+
+
 .profileImage{
 width:100%;
-margin-top:20%;
+margin-top:.2em;
 border-radius: 3%;
 box-sizing: border-box;
-
-
 box-shadow: 0 20px 30px 0px rgb(0, 0, 0 , 0.5);
-margin-bottom: 10%;
+margin-bottom: 1em;
 }
+
+
 .brandStatement{
     font-family: 'Libre Caslon Display', serif;
     text-align: center;
-    margin-top: 20%;
-    margin-bottom: 20%;
-    margin-top: 30%;
-    font-size: 25px;
-    margin-left: 20%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-top: 3em;
+    font-size: 2em;
     line-height: 1.1;
     letter-spacing: -1px;
-
     width:100%;
-    
-    
 }
+
+
+
 /*project page css*/
 
 .projectsGrid{
@@ -126,44 +123,45 @@ margin-bottom: 10%;
     grid-template-columns: 2fr 2fr 2fr ;
  
     gap: 3em;
-    margin-top: 10%;
+    margin-top: 1em;
     
 }
 .projectTitles{
     text-align: left;
-    font-size: 20px;
+    font-size: 75%;
     font-family: 'Libre Caslon Display', serif;
-    margin-left: 1%;
-    color: #d9480f;
-    margin-top:12px;
-    margin-bottom: 12px;
+    margin-left: .01em;
+    
+    margin-top:.75em;
+    margin-bottom: .75em;
     text-align: center;
 }
 .featuredProject{
     grid-column: 1/ span 3;
     text-align: center;
-    border-style: solid;
-    border-color: #d9480f;
+    
+   
     background-color: white;
     border-radius: 3%;
-    margin-bottom: 50px;
+    margin-bottom: 3.125em;
     box-shadow: 0 20px 30px 0px rgb(0, 0, 0 , 0.5);
 }
 .moreProjects{
     grid-column: 1/ span 3;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 1em;
     color:gray;
-    margin-top: 30px;
+    margin-top: 2em;
     
 }
 .projectHeader{
     grid-column: 1/ span 3; 
     font-family: 'Libre Caslon Display', serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5em;
+    color:white;
     
-    color: #d9480f;
+    
 }
 
 
@@ -177,8 +175,7 @@ margin-bottom: 10%;
      background-color: white;
      border-radius: 3%;
      text-align: center;
-     border-style: solid;
-     border-color: #d9480f;
+     
      box-shadow: 0 20px 30px 0px rgb(0, 0, 0 , 0.3);
  }
  .projectColumns:hover{
@@ -211,9 +208,9 @@ margin-bottom: 10%;
     
 }
 .qrlTitle{
-    font-size: 15px;
+    font-size: 1em;
     text-align: center;
-    margin-top: 25%;
+    margin-top: 6em;
     
 }
 .qrlImage{
@@ -224,15 +221,13 @@ margin-bottom: 10%;
 }
 
 .resumeCard{
-    border-style: solid;
     border-radius: 5%;
-     border-color: #d9480f;
      box-shadow: 0 20px 30px 0px rgb(0, 0, 0 , 0.5);
      background-color: white;
      margin-bottom: 10%;
 }
 .resumeLink{
-    width: 20px;
+    width: 1.25rem;
     
 }
 .moreInfoImage{
@@ -247,24 +242,24 @@ margin-bottom: 10%;
     font-family: 'Libre Caslon Display', serif;
     background-color: white;
     border-radius: 3%;
-    border-style: solid;
-    border-color: #d9480f;
+    
     margin-bottom:10%;
     
     box-shadow: 0 20px 30px 0px rgb(0, 0, 0 , 0.5);
 }
 .fullName{
-    margin-left:15%;
+    margin-left:5em;
     margin-bottom:1px;
-    font-size: 30px;
+    font-size: 2em;
 }
 .occupation{
-margin-left: 25%;
-font-size: 20px;
+margin-left: 7.5em;
+font-size: 1.5em;
 margin-bottom: 10px;
 }
+
 .linkTitles{
-    margin-bottom: 5px;
+    margin-bottom: .3125em;
 }
 .mediaLinks{
     color: black;
@@ -316,4 +311,15 @@ margin-bottom: 10px;
     color:#f76707 ;
 }
 
-
+/*footer css*/
+/* .footer{
+    font-family: 'Libre Caslon Display', serif;
+    display: flex;
+    background-color: #d9480f;
+    color: #fff4e6;
+    justify-content: space-around;
+    font-size: 30px;
+    height: 120px;
+    margin-top: 12px;
+    border-radius: 8px;
+} */

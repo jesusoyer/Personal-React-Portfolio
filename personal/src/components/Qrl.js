@@ -1,5 +1,6 @@
 import React from 'react';
 import './app.css';
+import './queries.css'
 import qrl from './assets/images/myQrl.png'
 class Qrl extends React.Component{
     render(){

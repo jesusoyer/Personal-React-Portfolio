@@ -6,6 +6,7 @@ import { IdentificationIcon } from '@heroicons/react/24/outline'
 import { EnvelopeIcon } from '@heroicons/react/24/outline'
 
 import './app.css';
+import './queries.css'
 
 
 

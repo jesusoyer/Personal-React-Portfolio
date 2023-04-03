@@ -1,5 +1,6 @@
 import React from 'react';
 import './app.css';
+import './queries.css'
 import gymRatsImage from './assets/images/gymRatsImage.png'
 import eagleEye from './assets/images/eagleeye.png'
 import videoWebsite from './assets/images/Video_app_image.png'

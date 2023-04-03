@@ -1,5 +1,6 @@
 import React from 'react';
 import './app.css';
+import './queries.css'
 import headShot from './assets/images/FullSizeRender (3).jpeg'
 import qrl from './assets/images/myQrl.png'
 import { ArrowDownTrayIcon } from '@heroicons/react/24/outline'
