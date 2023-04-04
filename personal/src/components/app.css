@@ -9,7 +9,7 @@ html{
 }
 /*main content container*/
 .mainContainer{
-    width: 50em;
+    width: 50rem;
     margin: 0 auto;
    
     
@@ -38,7 +38,7 @@ a:hover{
 
 .navBar{
 display: flex;
- font-size: 1.875em;
+ font-size: 1.875rem;
  justify-content: space-evenly;    
  color: #ffe8cc; 
  
@@ -46,21 +46,21 @@ display: flex;
 .logoName{
     font-family: 'Libre Caslon Display', serif;
     margin-right:auto;
-    margin-top: 1.2em;
-    margin-bottom: 3.2em;
-    margin-left: 1.3em;
+    margin-top: 1.2rem;
+    margin-bottom: 3.2rem;
+    margin-left: 1.3rem;
 
 }
 .linkColor{
     color: whitesmoke;
-    border-radius: .1em;
+    border-radius: .1rem;
 }
 .nav{
     font-family: 'Libre Caslon Display', serif;
-    margin-right: 1.3em;
-    margin-left: 1.3em;
-    margin-top: 1.2em;
-    margin-bottom: 3.2em;
+    margin-right: 1.3rem;
+    margin-left: 1.3rem;
+    margin-top: 1.2rem;
+    margin-bottom: 3.2rem;
 }
 .navLink{
 width:1.875rem;
@@ -70,10 +70,10 @@ width:1.875rem;
     content: attr(dataHover);
     width: 31px;
     box-shadow: 0 20px 30px 0px rgb(0, 0, 0 , 0.2);
-    border-radius: .1em;
+    border-radius: .1rem;
   }
   .navLink:active{
-    width: 1.875em;
+    width: 1.875rem;
     box-shadow: none;
   }
   
@@ -87,34 +87,29 @@ width:1.875rem;
 .homepageGridContainer{
     display:grid;
     grid-template-columns: 2fr 2fr;
+    gap:3rem;
+    row-gap: 2rem;
     
 
 }
 
 
 .profileImage{
-width:100%;
-margin-top:.2em;
+width:75%;
+margin-top:.2rem;
 border-radius: 3%;
 box-sizing: border-box;
 box-shadow: 0 20px 30px 0px rgb(0, 0, 0 , 0.5);
-margin-bottom: 1em;
+margin-bottom: 1rem;
 }
 
 
-.brandStatement{
+
+ .homepageColumns{
     font-family: 'Libre Caslon Display', serif;
-    text-align: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    margin-top: 3em;
-    font-size: 2em;
-    line-height: 1.1;
-    letter-spacing: -1px;
-    width:100%;
-}
-
-
+    display: flex;
+    color: white;
+ }
 
 /*project page css*/
 
@@ -122,18 +117,18 @@ margin-bottom: 1em;
     display:grid;
     grid-template-columns: 2fr 2fr 2fr ;
  
-    gap: 3em;
-    margin-top: 1em;
+    gap: 3rem;
+    margin-top: 1rem;
     
 }
 .projectTitles{
     text-align: left;
     font-size: 75%;
     font-family: 'Libre Caslon Display', serif;
-    margin-left: .01em;
+    margin-left: .01rem;
     
-    margin-top:.75em;
-    margin-bottom: .75em;
+    margin-top:.75rem;
+    margin-bottom: .75rem;
     text-align: center;
 }
 .featuredProject{
@@ -143,22 +138,22 @@ margin-bottom: 1em;
    
     background-color: white;
     border-radius: 3%;
-    margin-bottom: 3.125em;
+    margin-bottom: 3.125rem;
     box-shadow: 0 20px 30px 0px rgb(0, 0, 0 , 0.5);
 }
 .moreProjects{
     grid-column: 1/ span 3;
     text-align: center;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
     color:gray;
-    margin-top: 2em;
+    margin-top: 2rem;
     
 }
 .projectHeader{
     grid-column: 1/ span 3; 
     font-family: 'Libre Caslon Display', serif;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     color:white;
     
     
@@ -202,15 +197,15 @@ margin-bottom: 1em;
     display:grid;
     grid-template-columns: 2fr 2fr ;
     margin-top: 5%;
-    gap: 3em;
+    gap: 3rem;
     
     
     
 }
 .qrlTitle{
-    font-size: 1em;
+    font-size: 1rem;
     text-align: center;
-    margin-top: 6em;
+    margin-top: 6rem;
     
 }
 .qrlImage{
@@ -248,18 +243,18 @@ margin-bottom: 1em;
     box-shadow: 0 20px 30px 0px rgb(0, 0, 0 , 0.5);
 }
 .fullName{
-    margin-left:5em;
+    margin-left:10rem;
     margin-bottom:1px;
-    font-size: 2em;
+    font-size: 2rem;
 }
 .occupation{
-margin-left: 7.5em;
-font-size: 1.5em;
+margin-left: 11.5rem;
+font-size: 1.5rem;
 margin-bottom: 10px;
 }
 
 .linkTitles{
-    margin-bottom: .3125em;
+    margin-bottom: .3125rem;
 }
 .mediaLinks{
     color: black;
@@ -271,6 +266,8 @@ margin-bottom: 10px;
     margin-top: 5%;
     margin-bottom: 30px;
     text-align: left;
+    display:flex;
+    flex-direction: column;
 }
 .resumeButton{
     background-color: #f76707;
@@ -299,7 +296,7 @@ margin-bottom: 10px;
     display:grid;
     grid-template-columns: 2fr ;
  
-    gap: 1em;
+    gap: 1rem;
     margin-top: 10%;
 }
 .qrlContainer{
