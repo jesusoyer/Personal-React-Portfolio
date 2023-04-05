@@ -5,12 +5,31 @@
         width:84rem;
         margin: 0 auto;
     }
+    .projectsGrid{
+        display:grid;
+        grid-template-columns: 10fr 10fr 10fr ;
+     
+        gap: 3rem;
+        margin-top: 1rem;
+        
+    }
 
 }
 
 /*1200px* lanscape tablets*/
 @media(max-width:75em){
-
+    .mainContainer{
+        width:75em;
+        margin: 0 auto;
+    }
+    .projectsGrid{
+        display:grid;
+        grid-template-columns: 10fr 10fr 10fr ;
+     
+        gap: 3rem;
+        margin-top: 1rem;
+        
+    }
 
 }
 
@@ -22,7 +41,7 @@
 
 @media (max-width: 38em){
     .mainContainer{
-        width:19rem;
+        width:38rem;
         margin: 0 auto;
     }
     .brandStatement{
@@ -36,13 +55,16 @@
     }
     .homepageGridContainer{
         display: grid;
-        grid-template-columns: 2fr;
+        grid-template-columns: 2fr 2fr;
     }
     
+
+
 }
 
-
+/*600px*/
 @media (max-width:19em) {
+    
     .logoName{
         font-family: 'Libre Caslon Display', serif;
         margin-right:auto;
@@ -68,10 +90,51 @@
          color: #ffe8cc; 
          border-radius: 8px;
         }
-    
+        .projectsGrid{
+            display:flex;
+            flex-direction: column;
+         
+            
+            
+        }
+       
 }
 
 
+@media (max-width:47.562em){
+    .mainContainer{
+        width:40rem;
+        margin: 0 auto;
+    }
+    .projectsGrid{
+        display:grid;
+        grid-template-columns: 5fr 5fr 5fr ;
+     
+        gap: 3rem;
+        margin-top: 1rem;
+        
+    }
+    .projectColumns{
+        width:100%
+    }
+}
+
+@media (max-width:25em){
+    .mainContainer{
+        width:20rem;
+        margin: 0 auto;
+    }
+    .projectsGrid{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        margin: 0 auto;
+     
+       
+        
+    }
 
 
-/*600px*/
+}
+
+

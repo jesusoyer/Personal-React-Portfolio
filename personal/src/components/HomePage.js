@@ -10,17 +10,17 @@ class Homepage extends React.Component{
         <div className="homepageGridContainer">
 
         
+        
+        <h1 className="intro"> I have created a website that uses the youtube api</h1>
 
-        <div className="homepageColumns"> I have created a website that uses the youtube api</div>
+        <p className=""><img className='profileImage' src={videoWebsite} alt='video website'></img></p>
 
-        <div className="homepageColumns"><img className='profileImage' src={videoWebsite} alt='video website'></img></div>
-
-        <div className="homepageColumns"><img className='profileImage' src={profilePic} alt='Jesus'></img></div>
+        <h2 className=""><img className='profileImage' src={profilePic} alt='Jesus'></img></h2>
 
         
 
-        <div className="homepageColumns"> brand statement Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quibusdam necessitatibus veritatis eligendi incidunt impedit, laborum magni iure sequi repellendus corrupti, ducimus quos illum molestiae quas ad architecto earum aliquam.</div>
-
+        <p className="intro"> brand statement Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quibusdam necessitatibus veritatis eligendi incidunt impedit, laborum magni iure sequi repellendus corrupti, ducimus quos illum molestiae quas ad architecto earum aliquam.</p>
+        
 
     </div>
       )
