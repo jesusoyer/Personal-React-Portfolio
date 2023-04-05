@@ -93,9 +93,11 @@
         .projectsGrid{
             display:flex;
             flex-direction: column;
-         
             
-            
+        }
+        .contactContainer{
+            display: flex;
+            flex-direction: column;
         }
        
 }
@@ -119,6 +121,7 @@
     }
 }
 
+
 @media (max-width:25em){
     .mainContainer{
         width:20rem;
@@ -128,10 +131,12 @@
         display:flex;
         flex-direction: column;
         width:100%;
-        margin: 0 auto;
-     
-       
-        
+        margin: 0 auto;        
+    }
+    .contactContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 
 

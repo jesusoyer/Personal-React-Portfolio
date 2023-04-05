@@ -24,20 +24,13 @@ class MoreInfo extends React.Component{
       return(
         
         <div className='contactContainer'> 
-      
-         
-         <div className="resumeCard">
-         <div className='qrlTitle'>Scan to Share Portfolio...</div>
-          <img className='qrlImage' src={qrl} alt='qrl'></img>
-          <div><button className="resumeButton" onClick={onButtonClick}> Resume <ArrowDownTrayIcon className="resumeLink" title='Download Resume' /></button></div>
-          </div>
-
-  <div className="moreInfoCard">
+      <div className="moreInfoCard">
   <img className='moreInfoImage' src={headShot} alt='Jesus'></img>
   
       <div className="socialMediaGrid">
-        <div className='fullName'>Jesus Oyervides</div>
-        <div className='occupation'>Web Developer</div>
+        
+        <div className='linkTitles'>Jesus Oyervides</div>
+        <div className='linkTitles'>Web Developer</div>
        <div className='linkTitles'> Location: Austin, TX</div>
      <div className='linkTitles'>Email: <a className='mediaLinks' href = "mailto: oyervidesjesus017@gmail.com" rel='noopener noreferrer' target='_blank'>oyervidesjesus017@gmail.com</a>
      </div> 
@@ -48,6 +41,14 @@ class MoreInfo extends React.Component{
       </div>
       
       </div>
+         
+         <div className="resumeCard">
+         <div className='qrlTitle'>Scan to Share Portfolio...</div>
+          <img className='qrlImage' src={qrl} alt='qrl'></img>
+          <div><button className="resumeButton" onClick={onButtonClick}> Resume <ArrowDownTrayIcon className="resumeLink" title='Download Resume' /></button></div>
+          </div>
+
+  
 
         
 
