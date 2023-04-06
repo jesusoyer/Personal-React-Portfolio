@@ -11,7 +11,13 @@ class Homepage extends React.Component{
 
         
         
-        <h1 className="intro"> I have created a website that uses the youtube api</h1>
+        <div className="intro"> 
+        <div>What I'm doing this month?</div>
+        <div>This course will help me understand</div>
+        <div>L</div>
+
+
+        </div>
 
         <p className=""><img className='profileImage' src={videoWebsite} alt='video website'></img></p>
 
