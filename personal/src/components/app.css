@@ -88,28 +88,55 @@ width:1.875rem;
 .homepageGridContainer{
     display:grid;
     margin: 0 auto;
-    width:50%;
-    grid-template-columns: 2fr 2fr;
+    width:80%;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
     grid-template-rows: 1fr 2fr;
-    height: 500px;
+    height: 750px;
+    margin-top: 5%;
     column-gap: 30px;
-    
-    
     row-gap: 60px;
-    
-
-}
+    }
+    .introTitle{
+        font-size:2.5rem;
+        margin-bottom: 1rem;
+    }
+    .introContainer{
+        display:flex;
+        flex-direction: column;
+        grid-column: 1/ span 2;
+        font-size: 1.5rem;
+        font-family: 'Libre Caslon Display', serif;
+        line-height: 2rem;
+    }
 
 
 .profileImage{
-width:75%;
+width:100%;
 margin-top:.2rem;
 border-radius: 3%;
 box-sizing: border-box;
 box-shadow: 0 20px 30px 0px rgb(0, 0, 0 , 0.5);
 margin-bottom: 1rem;
 }
+.featuredHomepageImage{
+    width:150%;
+    margin-top:5%;
+    border-radius: 2%;
 
+}
+.featuredHomepageImage:hover{
+    width:152%;
+}
+.homepageFeaturedImage{
+    grid-column: 3/ span 4;
+
+}
+.homepageProfileImage{
+grid-column: 1/ span 2;
+}
+.brandStatment{
+    grid-column: 3/ span 4;
+}
 
 
  .homepageColumns{
@@ -208,18 +235,7 @@ margin-bottom: 1rem;
     
     
 }
-.qrlTitle{
-    font-size: 1rem;
-    text-align: center;
-    margin-top: 6rem;
-    
-}
-.qrlImage{
-    width:80%;
-    margin-left: 10%;
-    margin-right: auto;
-    /* margin-top: 30%; */
-}
+
 
 .resumeCard{
     border-radius: 5%;
@@ -298,33 +314,7 @@ margin-bottom: 10px;
 }
 
 
-/* qrl page grid and css*/
-.qrlgridContainer{
-    display:grid;
-    grid-template-columns: 2fr ;
- 
-    gap: 1rem;
-    margin-top: 10%;
-}
-.qrlContainer{
-    place-items: center;
-}
-.qrlHeader{
-    text-align: center;
-    font-size: 30px;
-    color:#f76707 ;
-}
 
-/*footer css*/
-/* .footer{
-    font-family: 'Libre Caslon Display', serif;
-    display: flex;
-    background-color: #d9480f;
-    color: #fff4e6;
-    justify-content: space-around;
-    font-size: 30px;
-    height: 120px;
-    margin-top: 12px;
-    border-radius: 8px;
-} */
+
+
 
