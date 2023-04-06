@@ -7,6 +7,12 @@
 html{
     font-size: 62.5%;
 }
+body{
+    margin:0;
+    background-image: url('mountain_sunset.jpg');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
 /*main content container*/
 .mainContainer{
     width: 50rem;
@@ -17,12 +23,7 @@ html{
 
 
 
-.outerContainer{
-    background-image: url('mountain_sunset.jpg');
-    background-size:100% 100%;
-    background-repeat: no-repeat;
-    
-}
+
 
 
 
@@ -201,10 +202,8 @@ margin-bottom: 1rem;
 
 /*more info page css*/
 .contactContainer{
-    display:grid;
-    grid-template-columns: 2fr 2fr ;
-    margin-top: 5%;
-    gap: 3rem;
+    width: 40rem;
+    margin: 0 auto;
     
     
     
@@ -262,6 +261,7 @@ margin-bottom: 10px;
 
 .linkTitles{
     margin-bottom: .3125rem;
+    font-size:1.5rem;
 }
 .mediaLinks{
     color: black;
@@ -280,19 +280,19 @@ margin-bottom: 10px;
     background-color: #f76707;
     color: white;    
     border-radius: 5px;
-    margin-left:10%;
-    font-size: 22px;
-    margin-bottom: 3%;
+    
+    
+    
     cursor: pointer;
     font-family: 'Libre Caslon Display', serif;
     border-color:#f76707 ;
-    margin-left: 30%;
-    width:40%;
+    margin:5%;
+    width:80%;
 }
 .resumeButton:hover{
     background-color: #d9480f;
     color: white;
-    font-size: 23px;
+    font-size: 20px;
     
     
 }

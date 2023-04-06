@@ -2,7 +2,7 @@ import React from 'react';
 import './app.css';
 import './queries.css'
 import headShot from './assets/images/FullSizeRender (3).jpeg'
-import qrl from './assets/images/myQrl.png'
+
 import { ArrowDownTrayIcon } from '@heroicons/react/24/outline'
 
 class MoreInfo extends React.Component{
@@ -38,15 +38,13 @@ class MoreInfo extends React.Component{
       <div className='linkTitles'>LinkedIn: <a className='mediaLinks' href = "https://www.linkedin.com/in/jesus-oyervides-jr/" rel='noopener noreferrer' target='_blank'> https://www.linkedin.com/in/jesus-oyervides-jr/</a></div>
 
       <div className='linkTitles'>GitHub: <a  className='mediaLinks' href = "https://github.com/jesusoyer" rel='noopener noreferrer' target='_blank'>https://github.com/jesusoyer</a> </div>
+
+      <div><button className="resumeButton" onClick={onButtonClick}> Resume <ArrowDownTrayIcon className="resumeLink" title='Download Resume' /></button></div>
       </div>
       
       </div>
          
-         <div className="resumeCard">
-         <div className='qrlTitle'>Scan to Share Portfolio...</div>
-          <img className='qrlImage' src={qrl} alt='qrl'></img>
-          <div><button className="resumeButton" onClick={onButtonClick}> Resume <ArrowDownTrayIcon className="resumeLink" title='Download Resume' /></button></div>
-          </div>
+         
 
   
 

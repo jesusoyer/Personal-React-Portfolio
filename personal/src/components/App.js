@@ -17,7 +17,7 @@ class App extends React.Component{
     return(
       <Router>
         
-        <div className="outerContainer">
+        
         <NavBar />
         
       <div className="mainContainer"> 
@@ -29,7 +29,7 @@ class App extends React.Component{
       
       </Routes>
       </div>
-      </div>
+      
       
       </Router>
     )
