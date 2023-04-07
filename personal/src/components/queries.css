@@ -30,6 +30,9 @@
         margin-top: 1rem;
         
     }
+    .brandStatementContainer{
+        font-size:1.3rem;
+    }
 
 }
 
@@ -48,7 +51,7 @@
         margin-top: 30%;
     }
     .profileImage{
-        width:100%;
+        width:75%;
         height: 100%;
        
         margin-bottom: 0;
@@ -57,7 +60,10 @@
         display: grid;
         grid-template-columns: 2fr 2fr;
     }
-    
+    .brandStatementContainer{
+        display:flex;
+        flex-direction: column;
+    }
 
 
 }
@@ -99,13 +105,19 @@
             display: flex;
             flex-direction: column;
         }
+        .homepageGridContainer{
+            display:flex;
+            flex-direction:column;
+            
+            
+            }
        
 }
 
 
 @media (max-width:47.562em){
     .mainContainer{
-        width:40rem;
+        width:65rem;
         margin: 0 auto;
     }
     .projectsGrid{
@@ -119,6 +131,30 @@
     .projectColumns{
         width:100%
     }
+    .homepageGridContainer{
+        display:flex;
+        flex-direction: column;
+        width:60rem;
+        margin: 0 auto;
+        
+        }
+        .featuredHomepageImage{
+            width:80%;
+            height: 100%;
+            margin-top:5%;
+            
+            border-radius: 2%;
+        
+        }
+        .brandStatementContainer{
+            font-size:1.1rem;
+           
+        }
+        .intro{
+            width: 80%;
+        }
+
+
 }
 
 
@@ -138,8 +174,20 @@
         flex-direction: column;
         width: 100%;
     }
+    .profileImage{
+width:100%;
+margin-top:2%;
+margin-top:.2rem;
+border-radius: 40%;
+box-sizing: border-box;
+box-shadow: 0 20px 30px 0px rgb(0, 0, 0 , 0.5);
+margin-bottom: 1rem;
+}
 
 
+}
+@media(max-width: 410px){
+    
 }
 
 
