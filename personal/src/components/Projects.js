@@ -22,7 +22,7 @@ class Projects extends React.Component{
       <div className='projectTitles'>GymRatz</div>
       
       <img className='featuredImage' src={gymRatsImage} alt='nature'></img>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique maiores explicabo, dolore eligendi facere debitis aliquid, harum accusamus quis obcaecati excepturi provident ullam ea placeat repudiandae quo ipsam ratione rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, perferendis. Quo rerum ad excepturi quae, sed asperiores magnam! Fuga eaque, debitis dolores aut totam delectus praesentium obcaecati recusandae. Laudantium, odit!</p></div>
+      <p>GymRatz is a web application using eact.js, Express.js, Node,js, MongoDB and GraphQl.GymRatz allows users to post and share their personal workouts with other users. Created using R  </p></div>
 
     <div className="projectColumns">
       <div className='projectTitles'>Eagle Eye</div>
