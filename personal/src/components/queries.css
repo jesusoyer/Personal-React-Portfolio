@@ -2,7 +2,7 @@
 /*1344px* smaller desktops*/
 @media(max-width:84em){
     .mainContainer{
-        width:84rem;
+        width:80rem;
         margin: 0 auto;
     }
     .projectsGrid{
@@ -25,7 +25,7 @@
     .projectsGrid{
         display:grid;
         grid-template-columns: 10fr 10fr 10fr ;
-     
+        width:130%;
         gap: 3rem;
         margin-top: 1rem;
         
