@@ -11,12 +11,12 @@ class MoreInfo extends React.Component{
 
     render(){
       const onButtonClick= () =>{
-        fetch('Jesus Oyervides Resume.pdf').then(response => {
+        fetch('JesusOyervidesResume.pdf').then(response => {
          response.blob().then(blob=> {
           const fileURL = window.URL.createObjectURL(blob);
           let alink = document.createElement('a');
           alink.href = fileURL
-          alink.download = 'Jesus Oyervides Resume.pdf';
+          alink.download = 'JesusOyervidesResume.pdf';
           alink.click();
          })
       })
@@ -42,14 +42,7 @@ class MoreInfo extends React.Component{
       <div><button className="resumeButton" onClick={onButtonClick}> Resume <ArrowDownTrayIcon className="resumeLink" title='Download Resume' /></button></div>
       </div>
       
-      </div>
-         
-         
-
-  
-
-        
-
+      </div>       
       </div>
         
       )
