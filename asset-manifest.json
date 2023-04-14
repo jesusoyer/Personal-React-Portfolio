@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal-React-Portfolio/static/css/main.5a1dbdcc.css",
-    "main.js": "/Personal-React-Portfolio/static/js/main.8b516d38.js",
+    "main.css": "/Personal-React-Portfolio/static/css/main.74391826.css",
+    "main.js": "/Personal-React-Portfolio/static/js/main.46656b5d.js",
     "static/media/IMG_5481.jpeg": "/Personal-React-Portfolio/static/media/IMG_5481.531ce20ea8809f4fca01.jpeg",
     "static/media/eagleeye.png": "/Personal-React-Portfolio/static/media/eagleeye.5e6d2bf7a440f8261b8e.png",
     "static/media/FullSizeRender (3).jpeg": "/Personal-React-Portfolio/static/media/FullSizeRender (3).9a98ffa4616ea6154186.jpeg",
@@ -14,11 +14,11 @@
     "static/media/DayPlanner.png": "/Personal-React-Portfolio/static/media/DayPlanner.5cb6fa6a674f91a42876.png",
     "static/media/mountain_sunset.jpg": "/Personal-React-Portfolio/static/media/mountain_sunset.25306a0e6d83d59a1885.jpg",
     "index.html": "/Personal-React-Portfolio/index.html",
-    "main.5a1dbdcc.css.map": "/Personal-React-Portfolio/static/css/main.5a1dbdcc.css.map",
-    "main.8b516d38.js.map": "/Personal-React-Portfolio/static/js/main.8b516d38.js.map"
+    "main.74391826.css.map": "/Personal-React-Portfolio/static/css/main.74391826.css.map",
+    "main.46656b5d.js.map": "/Personal-React-Portfolio/static/js/main.46656b5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a1dbdcc.css",
-    "static/js/main.8b516d38.js"
+    "static/css/main.74391826.css",
+    "static/js/main.46656b5d.js"
   ]
 }
