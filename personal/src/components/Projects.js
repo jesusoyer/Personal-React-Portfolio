@@ -36,7 +36,7 @@ class Projects extends React.Component{
     <div className='projectTitles'>YouTube Video Website</div>
       <img className='featuredImage' src={videoWebsite} alt='nature'></img>
       <p className='projectDescriptions'> This is my version of a YouTube video website created using the YouTube API and REACT.js. This website works much like youtube and allows users to search for videos through a search bar. This project was thought out by trying to replicate youtubes UI. I wanted to see if I could do it and it turns out I could.
-      <a  className='projectLinks' href = "" rel='noopener noreferrer' target='_blank'> Click to view Project..</a> 
+      <a  className='projectLinks' href = "https://github.com/jesusoyer/Video-website" rel='noopener noreferrer' target='_blank'> Click to view Project..</a> 
       </p>
       </div>
 
